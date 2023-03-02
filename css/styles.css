@@ -59,7 +59,7 @@ img{
     /* header */
 .header{
     border-bottom:1px solid #E7E9FC;
-    padding: 24px;
+    
  
 }
 .header-logo {
@@ -71,6 +71,8 @@ img{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
+        padding: 24px 0;
+    
 }
 .header-partlogo {
  color: #4D5AE5;   
@@ -88,7 +90,6 @@ img{
 
 .header-list {
     display: flex;
-    margin-left:332px; 
 
 }
 
@@ -106,6 +107,9 @@ img{
     display: flex;
 }
  
+address {
+margin-left: auto;
+}
 
    
 .header-link {
@@ -114,6 +118,8 @@ img{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: inherit;
+        padding: 24px 0;
+        display: block;
 }
 .header-link:hover,
 .header-link:focus {
@@ -127,6 +133,8 @@ img{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--main-text-color);
+        display: block;
+        padding: 24px 0;
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -139,7 +147,9 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);}
+    color: var(--main-text-color);
+    padding: 24px 0;
+    display: block;}
 
 .header-tel:hover,
 .header-tel:focus{
@@ -150,7 +160,7 @@ img{
 
 .hero {
     background-color: #2E2F42;
-    padding: 188px 472px;
+    padding: 188px 0;
 }
 
 .title-hero {
@@ -161,6 +171,9 @@ img{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 48px;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-hero {
@@ -178,7 +191,10 @@ img{
     cursor: pointer;
     text-align: center;
     padding: 16px 32px;
-    
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
    
     
 }
@@ -191,7 +207,7 @@ img{
     /* Section about */
 
 .about{
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .about-subtitle {
@@ -243,7 +259,7 @@ padding-bottom: 120px;
 
         .team {
             background-color: #F4F4FD;
-            padding: 120px 156px;
+            padding: 120px 0;
         }
     
         .team-title { 
@@ -290,7 +306,7 @@ padding-bottom: 120px;
 
         .footer {
             background-color: #2E2F42;
-            padding: 100px 156px
+            padding: 100px 0;
                 }
                 
         
@@ -398,7 +414,7 @@ padding-bottom: 120px;
                 }
 
                 
-.portfolio-item > .part-card {
+.portfolio-link > .part-card {
             padding:32px 16px; 
             border-bottom: 1px solid #E7E9FC;
             border-left: 1px solid #E7E9FC;
